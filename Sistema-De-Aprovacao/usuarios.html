@@ -1,0 +1,26 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Usuários</title><link rel="stylesheet" href="style.css"></head>
+<body><header class="topbar"><a class="brand" href="dashboard.html">Sistema<span> de Aprovação</span></a><div class="user"><span>Arthur Rincão<br><small style="color:#718096">Administrador</small></span><div class="avatar">AR</div></div></header>
+<div class="layout">
+    <aside class="sidebar">
+      <div class="side-title">Menu principal</div>
+      <nav class="nav">
+        <a class="" href="dashboard.html">▦ Dashboard</a>
+        <a class="" href="nova-requisicao.html">＋ Nova Requisição</a>
+        <a class="" href="requisicoes.html">☷ Requisições</a>
+        <a class="" href="aprovacoes.html">✓ Aprovações</a>
+      </nav>
+      <div class="side-title">Administração</div>
+      <nav class="nav">
+        <a class="active" href="usuarios.html">♙ Usuários</a>
+        <a class="" href="tipos-requisicao.html">⚙ Tipos de Requisição</a>
+      </nav>
+    </aside>
+    <main class="main">
+<div class="page-head"><div><h1>Usuários</h1><p class="subtitle">Gerencie os usuários e seus perfis de acesso.</p></div><a class="btn btn-primary" href="#cadastro">＋ Novo usuário</a></div>
+<div class="panel"><div class="field" style="margin-bottom:18px"><label>Pesquisar usuário</label><input placeholder="Nome ou e-mail corporativo..."></div><div class="table-wrap"><table class="table"><thead><tr><th>Nome</th><th>E-mail</th><th>Perfil</th><th>Departamento</th><th>Status</th><th>Ação</th></tr></thead><tbody>
+<tr><td>Arthur Rincão</td><td>arthur@empresa.com.br</td><td>Administrador</td><td>TI</td><td><span class="badge approved">Ativo</span></td><td>Editar</td></tr>
+<tr><td>Mariana Silva</td><td>mariana@empresa.com.br</td><td>Solicitante</td><td>RH</td><td><span class="badge approved">Ativo</span></td><td>Editar</td></tr>
+<tr><td>João Santos</td><td>joao@empresa.com.br</td><td>Aprovador</td><td>Administração</td><td><span class="badge cancelled">Inativo</span></td><td>Editar</td></tr>
+</tbody></table></div></div>
+<div class="panel" id="cadastro" style="margin-top:18px"><h3 style="margin-bottom:18px">Cadastro de usuário</h3><div class="form-grid"><div class="field"><label>Nome</label><input placeholder="Nome completo"></div><div class="field"><label>E-mail corporativo</label><input placeholder="nome@empresa.com.br"></div><div class="field"><label>Perfil de acesso</label><select><option>Solicitante</option><option>Aprovador</option><option>Administrador</option></select></div><div class="field"><label>Área / Departamento</label><input placeholder="Departamento"></div><div class="field"><label>Cargo</label><input placeholder="Cargo"></div></div><div class="actions"><a class="btn btn-primary" href="usuarios.html">Cadastrar usuário</a></div></div>
+<div class="footer">Sistema de Aprovação • Protótipo visual</div></main></div></body></html>

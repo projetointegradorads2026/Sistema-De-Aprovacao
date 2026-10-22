@@ -1,0 +1,27 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Requisições</title><link rel="stylesheet" href="style.css"></head>
+<body><header class="topbar"><a class="brand" href="dashboard.html">Sistema<span> de Aprovação</span></a><div class="user"><span>Arthur Rincão<br><small style="color:#718096">Administrador</small></span><div class="avatar">AR</div></div></header>
+<div class="layout">
+    <aside class="sidebar">
+      <div class="side-title">Menu principal</div>
+      <nav class="nav">
+        <a class="" href="dashboard.html">▦ Dashboard</a>
+        <a class="" href="nova-requisicao.html">＋ Nova Requisição</a>
+        <a class="active" href="requisicoes.html">☷ Requisições</a>
+        <a class="" href="aprovacoes.html">✓ Aprovações</a>
+      </nav>
+      <div class="side-title">Administração</div>
+      <nav class="nav">
+        <a class="" href="usuarios.html">♙ Usuários</a>
+        <a class="" href="tipos-requisicao.html">⚙ Tipos de Requisição</a>
+      </nav>
+    </aside>
+    <main class="main">
+<div class="page-head"><div><h1>Requisições</h1><p class="subtitle">Acompanhe as solicitações cadastradas.</p></div><a class="btn btn-primary" href="nova-requisicao.html">＋ Nova Requisição</a></div>
+<div class="panel"><div class="filters" style="margin-bottom:18px"><div class="field grow"><label>Pesquisar</label><input placeholder="Número, solicitante ou cargo..."></div><div class="field"><label>Status</label><select><option>Todos</option><option>Pendente</option><option>Aprovada</option><option>Reprovada</option><option>Cancelada</option></select></div><div class="field"><label>Ordenar</label><select><option>Mais recentes</option><option>Mais antigas</option></select></div></div>
+<div class="table-wrap"><table class="table"><thead><tr><th>ID</th><th>Tipo</th><th>Solicitante</th><th>Data</th><th>Status</th><th>Ação</th></tr></thead><tbody>
+<tr><td>#REQ-0128</td><td>Contratação</td><td>Mariana Silva</td><td>30/09/2026</td><td><span class="badge pending">Pendente</span></td><td><a href="#" style="color:#245b98">Visualizar</a></td></tr>
+<tr><td>#REQ-0127</td><td>Alteração de quadro</td><td>João Santos</td><td>29/09/2026</td><td><span class="badge approved">Aprovada</span></td><td><a href="#" style="color:#245b98">Visualizar</a></td></tr>
+<tr><td>#REQ-0126</td><td>Substituição</td><td>Carla Souza</td><td>28/09/2026</td><td><span class="badge rejected">Reprovada</span></td><td><a href="#" style="color:#245b98">Visualizar</a></td></tr>
+<tr><td>#REQ-0125</td><td>Contratação</td><td>Pedro Lima</td><td>27/09/2026</td><td><span class="badge approved">Aprovada</span></td><td><a href="#" style="color:#245b98">Visualizar</a></td></tr>
+</tbody></table></div></div>
+<div class="footer">Sistema de Aprovação • Protótipo visual</div></main></div></body></html>

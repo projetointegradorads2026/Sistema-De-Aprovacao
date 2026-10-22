@@ -1,0 +1,24 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dashboard</title><link rel="stylesheet" href="style.css"></head>
+<body><header class="topbar"><a class="brand" href="dashboard.html">Sistema<span> de Aprovação</span></a><div class="user"><span>Arthur Rincão<br><small style="color:#718096">Administrador</small></span><div class="avatar">AR</div></div></header>
+<div class="layout">
+    <aside class="sidebar">
+      <div class="side-title">Menu principal</div>
+      <nav class="nav">
+        <a class="active" href="dashboard.html">▦ Dashboard</a>
+        <a class="" href="nova-requisicao.html">＋ Nova Requisição</a>
+        <a class="" href="requisicoes.html">☷ Requisições</a>
+        <a class="" href="aprovacoes.html">✓ Aprovações</a>
+      </nav>
+      <div class="side-title">Administração</div>
+      <nav class="nav">
+        <a class="" href="usuarios.html">♙ Usuários</a>
+        <a class="" href="tipos-requisicao.html">⚙ Tipos de Requisição</a>
+      </nav>
+    </aside>
+    <main class="main">
+<div class="page-head"><div><h1>Dashboard</h1><p class="subtitle">Visão geral das requisições do sistema.</p></div></div>
+<div class="panel" style="margin-bottom:18px"><div class="filters"><div class="field"><label>Período</label><input type="date" value="2026-09-01"></div><div class="field"><label>Até</label><input type="date" value="2026-09-30"></div><div class="field"><label>Status</label><select><option>Todos</option><option>Pendente</option><option>Aprovada</option><option>Reprovada</option></select></div><div class="field"><label>Tipo</label><select><option>Todos os tipos</option><option>Contratação</option><option>Alteração de quadro</option></select></div><div style="align-self:end"><a class="btn btn-primary" href="dashboard.html">Filtrar</a></div></div></div>
+<div class="grid cards" style="margin-bottom:18px"><div class="card"><div class="metric-label">Total de requisições</div><div class="metric">128</div><div class="metric-note">no período filtrado</div></div><div class="card"><div class="metric-label">Pendentes</div><div class="metric">24</div><div class="metric-note">aguardando aprovação</div></div><div class="card"><div class="metric-label">Aprovadas</div><div class="metric">87</div><div class="metric-note">68% do total</div></div><div class="card"><div class="metric-label">Reprovadas</div><div class="metric">17</div><div class="metric-note">13% do total</div></div></div>
+<div class="grid two"><div class="panel"><h3>Requisições por período</h3><div class="chart"><div class="col" style="height:42%"><span>Sem 1</span></div><div class="col" style="height:66%"><span>Sem 2</span></div><div class="col" style="height:54%"><span>Sem 3</span></div><div class="col" style="height:84%"><span>Sem 4</span></div></div></div>
+<div class="panel"><h3 style="margin-bottom:15px">Requisições por status</h3><p class="metric-label">Aprovadas — 68%</p><div class="bar" style="margin:7px 0 14px"><i style="width:68%"></i></div><p class="metric-label">Pendentes — 19%</p><div class="bar" style="margin:7px 0 14px"><i style="width:19%"></i></div><p class="metric-label">Reprovadas — 13%</p><div class="bar" style="margin:7px 0 14px"><i style="width:13%"></i></div></div></div>
+<div class="footer">Sistema de Aprovação • Protótipo visual</div></main></div></body></html>
